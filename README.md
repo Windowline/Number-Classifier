@@ -1,5 +1,5 @@
-# Number-Classifier Inference with Cuda
-Simple neural network with cuda (only inference)
+# Number-Classifier Inference with CUDA
+Simple neural network with CUDA (only inference)
 
 Run
 ```
