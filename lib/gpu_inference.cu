@@ -82,7 +82,7 @@ __global__ void matchCountKernel(float* X, int8_t* labels, int* count, int M, in
     }
 
     if (retLabel == labels[imgIdx + row]) {
-        atomicAdd(count, 1); //reduction
+        atomicAdd(count, 1); //TODO: reduction
     }
 }
 
